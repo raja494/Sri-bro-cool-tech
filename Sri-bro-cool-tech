@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sri Bro Cool Tech</title>
+  <style>
+    /* General Reset */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Arial', sans-serif;
+      background-color: #f4f4f4;
+      color: #333;
+      line-height: 1.6;
+    }
+
+    header {
+      background-color: #1e40af;
+      color: white;
+      text-align: center;
+      padding: 40px 20px;
+    }
+
+    header h1 {
+      font-size: 50px;
+      margin-bottom: 10px;
+    }
+
+    header p {
+      font-size: 22px;
+      margin-bottom: 30px;
+    }
+
+    section {
+      padding: 50px 20px;
+      text-align: center;
+    }
+
+    h2 {
+      color: #1e40af;
+      font-size: 28px;
+      margin-bottom: 20px;
+    }
+
+    .services, .about, .testimonials, .faq, .contact {
+      background-color: #fff;
+      margin-bottom: 30px;
+      border-radius: 8px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      padding: 20px;
+    }
+
+    .services ul, .faq ul {
+      list-style: none;
+      padding: 0;
+    }
+
+    .services li, .faq li {
+      font-size: 18px;
+      margin: 10px 0;
+    }
+
+    .button {
+      background-color: #1e40af;
+      color: white;
+      padding: 15px 30px;
+      text-decoration: none;
+      border-radius: 5px;
+      margin: 10px;
+      display: inline-block;
+      font-size: 18px;
+      transition: background-color 0.3s;
+    }
+
+    .button:hover {
+      background-color: #0e2a7f;
+    }
+
+    .contact-form input, .contact-form textarea {
+      width: 100%;
+      padding: 10px;
+      margin: 10px 0;
+      border-radius: 5px;
+      border: 1px solid #ddd;
+    }
+
+    .contact-form button {
+      background-color: #1e40af;
+      color: white;
+      padding: 15px 30px;
+      border: none;
+      border-radius: 5px;
+      margin-top: 10px;
+      cursor: pointer;
+    }
+
+    .contact-form button:hover {
+      background-color: #0e2a7f;
+    }
+
+    footer {
+      background-color: #333;
+      color: white;
+      padding: 20px 0;
+      text-align: center;
+    }
+
+    footer a {
+      color: white;
+      text-decoration: none;
+    }
+
+    footer a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Header Section -->
+  <header>
+    <h1>Sri Bro Cool Tech</h1>
+    <p>AC & Washing Machine Bridge Service</p>
+    <a href="tel:+919000000000" class="button">Call Now</a>
+    <a href="https://wa.me/919000000000" class="button" target="_blank">WhatsApp</a>
+  </header>
+
+  <!-- About Us Section -->
+  <section class="about">
+    <h2>About Us</h2>
+    <p>At Sri Bro Cool Tech, we provide reliable and professional service for all your AC and washing machine needs. With years of experience, we aim to keep your appliances running smoothly, ensuring comfort and convenience at home.</p>
+  </section>
+
+  <!-- Services Section -->
+  <section class="services">
+    <h2>Our Services</h2>
+    <ul>
+      <li><strong>AC Installation & Repair</strong> - We install and repair all types of air conditioners to ensure your home stays cool all year round.</li>
+      <li><strong>Washing Machine Maintenance</strong> - Regular maintenance to keep your washing machine in top condition, avoiding costly repairs.</li>
+      <li><strong>Annual Service Packages</strong> - Keep your appliances in perfect shape with our annual service packages.</li>
+    </ul>
+  </section>
+
+  <!-- Testimonials Section -->
+  <section class="testimonials">
+    <h2>What Our Customers Say</h2>
+    <p>"Sri Bro Cool Tech has been my go-to for appliance services. Fast, reliable, and affordable!" - <em>Ramesh, T</em></p>
+    <p>"Excellent service! They fixed my AC in no time and at a great price!" - <em>Saranya, K</em></p>
+  </section>
+
+  <!-- FAQ Section -->
+  <section class="faq">
+    <h2>Frequently Asked Questions</h2>
+    <ul>
+      <li><strong>Q: Do you provide emergency services?</strong><br>A: Yes, we offer emergency AC and washing machine repairs 24/7.</li>
+      <li><strong>Q: How much does it cost for maintenance?</strong><br>A: Prices vary depending on the service required. Please contact us for a quote.</li>
+    </ul>
+  </section>
+
+  <!-- Contact Us Section -->
+  <section class="contact">
+    <h2>Contact Us</h2>
+    <form class="contact-form">
+      <input type="text" placeholder="Your Name" required>
+      <input type="email" placeholder="Your Email" required>
+      <textarea rows="4" placeholder="Your Message" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+
+  <!-- Footer Section -->
+  <footer>
+    <p>&copy; 2025 Sri Bro Cool Tech. All rights reserved.</p>
+    <p>Visit our <a href="https://raja494.github.io/Sri-bro-cool-tech/">Website</a></p>
+  </footer>
+
+</body>
+</html>
